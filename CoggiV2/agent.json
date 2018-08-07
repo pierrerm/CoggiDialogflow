@@ -1,8 +1,8 @@
 {
   "description": "Cognizant Office Assistant Chatbot",
   "language": "en",
-  "shortDescription": "Get exchange rates for major currencies",
-  "examples": "User: Convert 100 pounds to dollars.\nUser: $12.34 into Yen.\nUser: How much will I get for 1000 Euro?\nUser: What\u0027s the exchange rate for Canadian dollars to US dollars?",
+  "shortDescription": "Reserve meeting rooms, seats and schedule meetings automatically",
+  "examples": "User: Book a room for friday afternoon.\nUser: Reserve a seat for tomorrow.\nUser: When can Joe, Steve, Marie, Anne, Oliver and I meet next thursday? \nUser: Manage reservations",
   "activeAssistantAgents": [],
   "disableInteractionLogs": false,
   "disableStackdriverLogs": false,

@@ -1,0 +1,52 @@
+{
+  "id": "536dc73b-0a8b-4b53-ba14-f7d49bc30cb1",
+  "name": "Seat.Selection - fallback",
+  "auto": false,
+  "contexts": [
+    "SeatSelection"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "SeatSelection.SeatSelection-fallback",
+      "affectedContexts": [
+        {
+          "name": "SeatSelection",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Woops! 😯",
+            "Oh no! 😣",
+            "Ouch! 😯",
+            "Ugh 😞"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "This seat is unavailable, please select another one!",
+            "This seat is already taken, please choose another one!"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": false
+      },
+      "speech": []
+    }
+  ],
+  "priority": 0,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1531300155,
+  "fallbackIntent": true,
+  "events": []
+}

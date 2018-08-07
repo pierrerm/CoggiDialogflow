@@ -1,0 +1,83 @@
+{
+  "id": "102e9644-e8d9-46df-a0bb-1cc6bd7226fc",
+  "name": "Menu.More",
+  "auto": false,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "skype",
+          "lang": "en",
+          "title": "Choose an item:",
+          "replies": [
+            "Book a room",
+            "Reserve a seat",
+            "Schedule a meeting",
+            "Manage reservations"
+          ]
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Choose an item:",
+          "replies": [
+            "Book a room",
+            "Reserve a seat",
+            "Schedule a meeting",
+            "Manage reservations"
+          ]
+        },
+        {
+          "type": 2,
+          "platform": "telegram",
+          "lang": "en",
+          "title": "Choose an item:",
+          "replies": [
+            "Book a room",
+            "Reserve a seat",
+            "Schedule a meeting",
+            "Manage reservations"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Sure!",
+            "Okay!",
+            "Great!",
+            "Alright!"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "What can I do for you?",
+            "What can I help you with?",
+            "What do you need?",
+            "How can I help?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true,
+        "facebook": true,
+        "skype": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1532095771,
+  "fallbackIntent": false,
+  "events": []
+}

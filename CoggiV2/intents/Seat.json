@@ -1,0 +1,49 @@
+{
+  "id": "27d50921-b939-4cde-819d-e6fa8548e3f7",
+  "name": "Seat",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "Date",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Sure!",
+            "Of course!",
+            "Right away!",
+            "Absolutely!",
+            "Okay!",
+            "Alright!"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "For what day would you like to reserve your seat?",
+            "What date do you wish to reserve your seat for?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1529418160,
+  "fallbackIntent": false,
+  "events": []
+}

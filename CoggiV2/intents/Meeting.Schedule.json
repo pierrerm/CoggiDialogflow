@@ -1,0 +1,45 @@
+{
+  "id": "9b590ae8-5d39-4513-ab55-bbde5ac90259",
+  "name": "Meeting.Schedule",
+  "auto": false,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "MeetingSchedule-followup",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Sure !",
+            "Right away !",
+            "Okay !",
+            "No problem !",
+            "Alright !"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Please indicate the participants and optionally a preferred date, period and/or duration !"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1532096758,
+  "fallbackIntent": false,
+  "events": []
+}

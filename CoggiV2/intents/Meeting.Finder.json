@@ -1,0 +1,63 @@
+{
+  "id": "46d7bd47-3f9b-4032-a003-7ba8612d4843",
+  "name": "Meeting.Finder",
+  "auto": true,
+  "contexts": [
+    "MeetingSchedule-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "157ab4e7-10a0-45cc-899b-6673d895c0ae",
+          "required": true,
+          "dataType": "@Coworker",
+          "name": "coworkers",
+          "value": "$coworkers",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Who would you like to meet with?"
+            }
+          ],
+          "isList": true
+        },
+        {
+          "id": "233a1d3d-2fcd-4795-af92-18ff44e5c2d3",
+          "required": false,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "isList": false
+        },
+        {
+          "id": "50098812-ada5-4f06-bbdc-4d43c4be8102",
+          "required": false,
+          "dataType": "@MeetingDuration",
+          "name": "MeetingDuration",
+          "value": "$MeetingDuration",
+          "prompts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "$MeetingDuration"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1533046966,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,93 @@
+{
+  "id": "32f142ef-de88-4688-bf15-fdc6338ab26a",
+  "name": "Seat.Booked",
+  "auto": true,
+  "contexts": [
+    "SeatSelection"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "SeatBooked-followup",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "df29b522-a634-4976-bed7-24333a7b84ec",
+          "required": true,
+          "dataType": "@seat",
+          "name": "seat",
+          "value": "$seat",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Which seat would you like to reserve?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "3e03ade4-8e07-4600-af13-15dc482a1ac9",
+          "required": false,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "#SeatSelection.date",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "telegram",
+          "lang": "en",
+          "title": "Do you need anything else?",
+          "replies": [
+            "Yes please!",
+            "I\u0027m all set, thanks!"
+          ]
+        },
+        {
+          "type": 2,
+          "platform": "skype",
+          "lang": "en",
+          "title": "Do you need anything else?",
+          "replies": [
+            "Yes please!",
+            "I\u0027m all set, thanks!"
+          ]
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Do you need anything else?",
+          "replies": [
+            "Yes please!",
+            "I\u0027m all set, thanks!"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Seat $seat has been successfully booked for #SeatSelection.date !"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "telegram": true,
+        "skype": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1531316376,
+  "fallbackIntent": false,
+  "events": []
+}

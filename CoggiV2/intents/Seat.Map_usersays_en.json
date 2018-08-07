@@ -1,0 +1,128 @@
+[
+  {
+    "id": "c265344f-323e-4022-bd68-35ec9c8896be",
+    "data": [
+      {
+        "text": "Today",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1531306588
+  },
+  {
+    "id": "b1582172-2ccc-482d-84f8-91a42cd1a6f8",
+    "data": [
+      {
+        "text": "Monday",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1531306588
+  },
+  {
+    "id": "60fdb561-1734-4a87-8216-835e2e007685",
+    "data": [
+      {
+        "text": "Tomorrow",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1531306588
+  },
+  {
+    "id": "dc91622b-da95-4ab1-95a0-3b6731a563e7",
+    "data": [
+      {
+        "text": "the day after tomorrow",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1531306588
+  },
+  {
+    "id": "51f4fa80-75fe-4937-a4dc-7669238a8744",
+    "data": [
+      {
+        "text": "in a week",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1531306588
+  },
+  {
+    "id": "4becf934-2e17-4f1d-9b8e-73d36bc36b8c",
+    "data": [
+      {
+        "text": "Friday",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1531306588
+  },
+  {
+    "id": "2b8e6e8e-b612-4410-80cc-608165c5882e",
+    "data": [
+      {
+        "text": "in two days",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1531306588
+  },
+  {
+    "id": "f6611276-812c-42a8-bffc-475ccd9dcbb5",
+    "data": [
+      {
+        "text": "next thursday",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1531306588
+  },
+  {
+    "id": "a0628ad0-28da-411f-bcc8-a286f1c9470a",
+    "data": [
+      {
+        "text": "tuesday",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1531306588
+  }
+]

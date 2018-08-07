@@ -1,0 +1,52 @@
+{
+  "id": "58856a7d-e13f-42fc-a56b-dd04167daf80",
+  "name": "Seat.When",
+  "auto": true,
+  "contexts": [
+    "SeatMap-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "Date",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Sure!",
+            "Of course!",
+            "Right away!",
+            "Okay!",
+            "Absolutely!",
+            "Alright!"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "What date would you like to view?",
+            "What day do you have in mind?",
+            "Which day would that be?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1529418300,
+  "fallbackIntent": false,
+  "events": []
+}

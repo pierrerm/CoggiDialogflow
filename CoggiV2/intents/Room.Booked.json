@@ -1,0 +1,105 @@
+{
+  "id": "0b064c45-c046-46dd-a3d4-9377a0d8a4f3",
+  "name": "Room.Booked",
+  "auto": true,
+  "contexts": [
+    "RoomSelect-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "RoomBooked-followup",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "466aeece-9c7b-43c2-a33e-7ccbe89c2a1b",
+          "required": false,
+          "dataType": "@Room",
+          "name": "Room",
+          "value": "$Room",
+          "isList": false
+        },
+        {
+          "id": "2036a403-823a-4035-82cb-25037362809b",
+          "required": false,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "#RoomSelect-followup.date",
+          "isList": false
+        },
+        {
+          "id": "f8d351a9-add9-4d95-81ff-a01791f7fd08",
+          "required": false,
+          "dataType": "@sys.time-period",
+          "name": "time",
+          "value": "#RoomSelect-followup.time",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "skype",
+          "lang": "en",
+          "title": "",
+          "replies": [
+            "Yes please!",
+            "I\u0027m all set, thanks!"
+          ]
+        },
+        {
+          "type": 2,
+          "platform": "telegram",
+          "lang": "en",
+          "title": "",
+          "replies": [
+            "Yes please!",
+            "I\u0027m all set, thanks!"
+          ]
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "",
+          "replies": [
+            "Yes please!",
+            "I\u0027m all set, thanks!"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "$Room has successfully been booked for #RoomSelect-followup.date, #RoomSelect-followup.time !"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Do you need help with anything else?",
+            "Is there anything else I can do for you?",
+            "Can I help you with something else?",
+            "Any other requests?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "telegram": true,
+        "skype": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1532096104,
+  "fallbackIntent": false,
+  "events": []
+}

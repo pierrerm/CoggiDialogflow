@@ -1,0 +1,90 @@
+{
+  "id": "025afd44-7dce-43cc-bcef-2e0cbbc08a22",
+  "name": "Default Fallback Intent",
+  "auto": false,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.unknown",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "skype",
+          "lang": "en",
+          "title": "Select an option",
+          "replies": [
+            "Book a room",
+            "Reserve a seat",
+            "Schedule a meeting",
+            "Manage reservations"
+          ]
+        },
+        {
+          "type": 2,
+          "platform": "telegram",
+          "lang": "en",
+          "title": "Select an option",
+          "replies": [
+            "Book a room",
+            "Reserve a seat",
+            "Schedule a meeting",
+            "Manage reservations"
+          ]
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Select an option",
+          "replies": [
+            "Book a room",
+            "Reserve a seat",
+            "Schedule a meeting",
+            "Manage reservations"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "I\u0027m sorry. I\u0027m having trouble understanding the question.",
+            "I think I may have misunderstood your last statement.",
+            "I\u0027m sorry. I didn\u0027t quite grasp what you just said.",
+            "I don\u0027t think I\u0027m qualified to answer that yet.",
+            "I\u0027m a bit confused by that last part.",
+            "I\u0027m not totally sure about that.",
+            "I\u0027m not sure I follow.",
+            "I\u0027m afraid I don\u0027t understand.",
+            "I\u0027m a bit confused."
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "What can I do for you?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "slack": false,
+        "telegram": true,
+        "kik": false,
+        "skype": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1532101148,
+  "fallbackIntent": true,
+  "events": [
+    {
+      "name": "GOOGLE_ASSISTANT_WELCOME"
+    }
+  ]
+}

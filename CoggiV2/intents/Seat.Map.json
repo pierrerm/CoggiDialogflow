@@ -1,0 +1,129 @@
+{
+  "id": "0f918303-ba75-46f9-bff8-7c3018ac483c",
+  "name": "Seat.Map",
+  "auto": true,
+  "contexts": [
+    "Date"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "SeatMap-followup",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "87e6ab1c-5704-4171-aad6-e4ffd7722096",
+          "required": true,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "I\u0027m sorry, on what day would that be?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 1,
+          "platform": "telegram",
+          "lang": "en",
+          "title": "Here are the available seats on $date :",
+          "subtitle": "What would you like to do next?",
+          "imageUrl": "http://i346.photobucket.com/albums/p426/pierrerm38/SeatMap_zpspgvmffzs.png",
+          "buttons": [
+            {
+              "text": "Select my seat"
+            },
+            {
+              "text": "View another date"
+            },
+            {
+              "text": "Go back"
+            }
+          ]
+        },
+        {
+          "type": 4,
+          "platform": "skype",
+          "lang": "en",
+          "payload": {
+            "skype": {
+              "text": "Here are the available seats on $date :",
+              "attachments": [
+                {
+                  "contentType": "image",
+                  "contentUrl": "http://i346.photobucket.com/albums/p426/pierrerm38/SeatMap_zpspgvmffzs.png",
+                  "name": "SeatMap"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "type": 2,
+          "platform": "skype",
+          "lang": "en",
+          "title": "What would you like to do next?",
+          "replies": [
+            "Select my seat",
+            "View another date",
+            "Go back"
+          ]
+        },
+        {
+          "type": 4,
+          "platform": "facebook",
+          "lang": "en",
+          "payload": {
+            "facebook": {
+              "attachment": {
+                "type": "image",
+                "payload": {
+                  "url": "http://i346.photobucket.com/albums/p426/pierrerm38/SeatMap_zpspgvmffzs.png",
+                  "is_reusable": true
+                }
+              }
+            }
+          }
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "What would you like to do next?",
+          "replies": [
+            "Select my seat",
+            "View another date",
+            "Go back"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Fail - Here are the available seats on $date :"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": false,
+        "skype": false,
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1531306588,
+  "fallbackIntent": false,
+  "events": []
+}

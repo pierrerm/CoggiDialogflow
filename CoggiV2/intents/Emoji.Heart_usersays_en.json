@@ -1,0 +1,50 @@
+[
+  {
+    "id": "5946e4be-f7d1-4cb2-b7a6-fa54eacdcd38",
+    "data": [
+      {
+        "text": "I love you",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1531230136
+  },
+  {
+    "id": "ef4a3a2a-9714-4f57-8334-4d816a16b007",
+    "data": [
+      {
+        "text": "❤",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 3,
+    "updated": 1531229939
+  },
+  {
+    "id": "d7a4ee34-842c-471d-a743-e02ee6e48e36",
+    "data": [
+      {
+        "text": "Love",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1531230136
+  },
+  {
+    "id": "0bf6eedc-3c23-4938-9151-e9db947e749c",
+    "data": [
+      {
+        "text": "You are awesome",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1531230136
+  }
+]

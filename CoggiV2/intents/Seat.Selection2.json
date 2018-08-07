@@ -1,0 +1,50 @@
+{
+  "id": "219616a5-1262-4fd4-96b5-dfcf35f44b26",
+  "name": "Seat.Selection2",
+  "auto": true,
+  "contexts": [
+    "SeatBooked-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "SeatSelection",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "6bdc6dfa-0fef-488b-8dd3-cc3f34ae4168",
+          "required": false,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "#SeatBooked-followup.date",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Which one would you like to reserve?",
+            "What is the number of the seat you wish to reserve?",
+            "Which seat would you want?",
+            "What seat would you like?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1531316852,
+  "fallbackIntent": false,
+  "events": []
+}

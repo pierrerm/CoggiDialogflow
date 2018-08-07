@@ -1,0 +1,384 @@
+[
+  {
+    "id": "7a4b6863-b97f-4f34-ae13-f464a950391e",
+    "data": [
+      {
+        "text": "I would like to meet ",
+        "userDefined": false
+      },
+      {
+        "text": "1 hour",
+        "alias": "MeetingDuration",
+        "meta": "@MeetingDuration",
+        "userDefined": true
+      },
+      {
+        "text": " with ",
+        "userDefined": false
+      },
+      {
+        "text": "Joe",
+        "alias": "coworkers",
+        "meta": "@Coworker",
+        "userDefined": false
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "Steve",
+        "alias": "coworkers",
+        "meta": "@Coworker",
+        "userDefined": false
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "Oliver",
+        "alias": "coworkers",
+        "meta": "@Coworker",
+        "userDefined": false
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "Laura",
+        "alias": "coworkers",
+        "meta": "@Coworker",
+        "userDefined": false
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "Michelle",
+        "alias": "coworkers",
+        "meta": "@Coworker",
+        "userDefined": false
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "Anne",
+        "alias": "coworkers",
+        "meta": "@Coworker",
+        "userDefined": false
+      },
+      {
+        "text": " and ",
+        "userDefined": false
+      },
+      {
+        "text": "Marie",
+        "alias": "coworkers",
+        "meta": "@Coworker",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1533046966
+  },
+  {
+    "id": "28021353-71ea-471e-8838-3af6814eaf70",
+    "data": [
+      {
+        "text": "When could ",
+        "userDefined": false
+      },
+      {
+        "text": "Oliver",
+        "alias": "coworkers",
+        "meta": "@Coworker",
+        "userDefined": false
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "Laura",
+        "alias": "coworkers",
+        "meta": "@Coworker",
+        "userDefined": false
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "Michelle",
+        "alias": "coworkers",
+        "meta": "@Coworker",
+        "userDefined": false
+      },
+      {
+        "text": " and I meet ",
+        "userDefined": false
+      },
+      {
+        "text": "this friday",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      },
+      {
+        "text": "? And in what room?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1533046966
+  },
+  {
+    "id": "43b125a7-e13f-4eff-8a81-1cdacf5e8226",
+    "data": [
+      {
+        "text": "When can ",
+        "userDefined": false
+      },
+      {
+        "text": "Joe",
+        "alias": "coworkers",
+        "meta": "@Coworker",
+        "userDefined": false
+      },
+      {
+        "text": " and I meet for ",
+        "userDefined": false
+      },
+      {
+        "text": "1 hour",
+        "alias": "MeetingDuration",
+        "meta": "@MeetingDuration",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "e3ee8341-304a-4224-af32-d9782d7deb62",
+    "data": [
+      {
+        "text": "Find a meeting with ",
+        "userDefined": false
+      },
+      {
+        "text": "Mark",
+        "alias": "coworkers",
+        "meta": "@Coworker",
+        "userDefined": false
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "Joe",
+        "alias": "coworkers",
+        "meta": "@Coworker",
+        "userDefined": false
+      },
+      {
+        "text": " and ",
+        "userDefined": false
+      },
+      {
+        "text": "Anne",
+        "alias": "coworkers",
+        "meta": "@Coworker",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1533046966
+  },
+  {
+    "id": "3267df45-c1bb-4d58-9922-9e8ee377d70f",
+    "data": [
+      {
+        "text": "Schedule a meeting of 1h30 with Joe and Michelle next Monday",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "af0377eb-6bf4-4ee2-826c-6ab74789e1cd",
+    "data": [
+      {
+        "text": "Schedule a meeting of ",
+        "userDefined": false
+      },
+      {
+        "text": "1h30",
+        "alias": "MeetingDuration",
+        "meta": "@MeetingDuration",
+        "userDefined": true
+      },
+      {
+        "text": " with ",
+        "userDefined": false
+      },
+      {
+        "text": "Joe",
+        "alias": "coworkers",
+        "meta": "@Coworker",
+        "userDefined": false
+      },
+      {
+        "text": " and ",
+        "userDefined": false
+      },
+      {
+        "text": "Michelle",
+        "alias": "coworkers",
+        "meta": "@Coworker",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "next Monday",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "11c4e457-c2f8-4269-b752-5ecc5e7948a4",
+    "data": [
+      {
+        "text": "When and Where can ",
+        "userDefined": false
+      },
+      {
+        "text": "Catherine",
+        "alias": "coworkers",
+        "meta": "@Coworker",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Marie",
+        "alias": "coworkers",
+        "meta": "@Coworker",
+        "userDefined": false
+      },
+      {
+        "text": " and I meet?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1533046966
+  },
+  {
+    "id": "f263c357-0bf7-424f-b0f5-b57ef3250aa9",
+    "data": [
+      {
+        "text": "When can ",
+        "userDefined": false
+      },
+      {
+        "text": "Joe",
+        "alias": "coworkers",
+        "meta": "@Coworker",
+        "userDefined": false
+      },
+      {
+        "text": " and I meet for ",
+        "userDefined": false
+      },
+      {
+        "text": "30 minutes",
+        "alias": "MeetingDuration",
+        "meta": "@MeetingDuration",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "updated": 1533046966
+  },
+  {
+    "id": "c7a9d0a2-c003-4a33-92dd-6c26a031e3aa",
+    "data": [
+      {
+        "text": "I\u0027d like to see ",
+        "userDefined": false
+      },
+      {
+        "text": "Joe",
+        "alias": "coworkers",
+        "meta": "@Coworker",
+        "userDefined": true
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "Steve",
+        "alias": "coworkers",
+        "meta": "@Coworker",
+        "userDefined": false
+      },
+      {
+        "text": " and ",
+        "userDefined": false
+      },
+      {
+        "text": "Anne",
+        "alias": "coworkers",
+        "meta": "@Coworker",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "on Monday",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1533046966
+  }
+]

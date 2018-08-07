@@ -1,0 +1,52 @@
+{
+  "id": "f9e2f1b8-4d4a-4d14-ad5e-1e587d572917",
+  "name": "Seat.When2",
+  "auto": true,
+  "contexts": [
+    "SeatBooked-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "Date",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Sure!",
+            "Of course!",
+            "Right away!",
+            "Okay!",
+            "Absolutely!",
+            "Alright!"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "What date would you like to view?",
+            "What day do you have in mind?",
+            "Which day would that be?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1531316356,
+  "fallbackIntent": false,
+  "events": []
+}

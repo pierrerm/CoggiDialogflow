@@ -1,0 +1,44 @@
+{
+  "id": "74103cdf-9198-4b68-b6fb-189536712410",
+  "name": "Emoji.Heart",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Awww",
+            "How sweet!",
+            "Oh, stop it you!"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "❤",
+            "❤ u 2"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "telegram": true,
+        "skype": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1531815705,
+  "fallbackIntent": false,
+  "events": []
+}

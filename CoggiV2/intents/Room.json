@@ -1,0 +1,45 @@
+{
+  "id": "49faf9fd-d471-4616-9f95-e0e48482c661",
+  "name": "Room",
+  "auto": false,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "DateTime",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Sure!",
+            "Right away!",
+            "Of course!",
+            "Okay!",
+            "Alright!"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "For what day and time would you need it?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1532095809,
+  "fallbackIntent": false,
+  "events": []
+}

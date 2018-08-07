@@ -1,0 +1,31 @@
+[
+  {
+    "id": "e0b26a7e-71ca-4e06-979e-3516661557d1",
+    "data": [
+      {
+        "text": "Choose a room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "67dc0006-9429-458c-a1a0-b95d93ab5ab7",
+    "data": [
+      {
+        "text": "Choose",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " a room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1530801530
+  }
+]

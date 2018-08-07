@@ -1,0 +1,95 @@
+{
+  "id": "7e8d0f67-418b-4cd5-92dd-96f6cf6c3386",
+  "name": "Menu.Welcome",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "skype",
+          "lang": "en",
+          "title": "What can I help you with?",
+          "replies": [
+            "Book a room",
+            "Reserve a seat",
+            "Schedule a meeting",
+            "Manage reservations"
+          ]
+        },
+        {
+          "type": 2,
+          "platform": "telegram",
+          "lang": "en",
+          "title": "What can I help you with?",
+          "replies": [
+            "Book a room",
+            "Reserve a seat",
+            "Schedule a meeting",
+            "Manage reservations"
+          ]
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "What can I help you with?",
+          "replies": [
+            "Book a room",
+            "Reserve a seat",
+            "Schedule a meeting",
+            "Manage reservations"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Hi! My name is Coggi, your Cognizant office assistant!",
+            "Hello! I\u0027m Coggi. I am your Cognizant office assistant!",
+            "Good day! My name is Coggi, your Cognizant office assistant!",
+            "Greetings! I\u0027m Coggi, your Cognizant office assistant!"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true,
+        "skype": true,
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1533548840,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    },
+    {
+      "name": "TELEGRAM_WELCOME"
+    },
+    {
+      "name": "VIBER_WELCOME"
+    },
+    {
+      "name": "SKYPE_WELCOME"
+    },
+    {
+      "name": "KIK_WELCOME"
+    },
+    {
+      "name": "SLACK_WELCOME"
+    },
+    {
+      "name": "FACEBOOK_WELCOME"
+    }
+  ]
+}

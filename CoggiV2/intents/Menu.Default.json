@@ -1,0 +1,87 @@
+{
+  "id": "a9c79f28-8b90-45d5-88d5-1d17bc64de8f",
+  "name": "Menu.Default",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "skype",
+          "lang": "en",
+          "title": "What can I help you with?",
+          "replies": [
+            "Book a room",
+            "Reserve a seat",
+            "Schedule a meeting",
+            "Manage reservations"
+          ]
+        },
+        {
+          "type": 2,
+          "platform": "telegram",
+          "lang": "en",
+          "title": "What can I help you with?",
+          "replies": [
+            "Book a room",
+            "Reserve a seat",
+            "Schedule a meeting",
+            "Manage reservations"
+          ]
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "What can I help you with?",
+          "replies": [
+            "Book a room",
+            "Reserve a seat",
+            "Schedule a meeting",
+            "Manage reservations"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Hi!",
+            "Hello!",
+            "Good day!",
+            "Hey!",
+            "What\u0027s up?"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "I hope you are doing well!",
+            "Glad to talk to you!",
+            "Welcome back!"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": false,
+        "facebook": true,
+        "slack": false,
+        "telegram": true,
+        "kik": false,
+        "skype": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1532094840,
+  "fallbackIntent": false,
+  "events": []
+}

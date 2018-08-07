@@ -1,0 +1,47 @@
+{
+  "id": "3f216349-e972-4cb7-9123-8ab78a5e1001",
+  "name": "Room.When2",
+  "auto": false,
+  "contexts": [
+    "RoomBooked-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "DateTime",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Sure!",
+            "Right away!",
+            "No problem!",
+            "Of course!",
+            "Alright!"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "What day and time would you like to view?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1532096169,
+  "fallbackIntent": false,
+  "events": []
+}

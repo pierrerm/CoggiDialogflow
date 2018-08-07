@@ -1,0 +1,83 @@
+{
+  "id": "f5407572-439c-45f2-8c35-2bb4e3d10dfc",
+  "name": "Room.Select",
+  "auto": false,
+  "contexts": [
+    "RoomMap-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "RoomSelect-followup",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "db822c96-8939-4638-9c8c-fde0aa0db575",
+          "required": false,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "#RoomMap-followup.date",
+          "isList": false
+        },
+        {
+          "id": "8fa12fc2-60ff-4903-bb85-7300798dfdbd",
+          "required": false,
+          "dataType": "@sys.time-period",
+          "name": "time",
+          "value": "#RoomMap-followup.time",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "skype",
+          "lang": "en",
+          "title": "Select a room",
+          "replies": [
+            "Bercy",
+            "Courcelles",
+            "Elysées",
+            "Raspail",
+            "Vaugirard"
+          ]
+        },
+        {
+          "type": 2,
+          "platform": "telegram",
+          "lang": "en",
+          "title": "Select a room",
+          "replies": [
+            "Bercy",
+            "Courcelles",
+            "Elysées",
+            "Raspail",
+            "Vaugirard"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "telegram": true,
+        "skype": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1532095828,
+  "fallbackIntent": false,
+  "events": []
+}

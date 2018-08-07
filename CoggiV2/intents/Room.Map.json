@@ -1,0 +1,146 @@
+{
+  "id": "78e7da28-1847-4617-8b88-e243b0643081",
+  "name": "Room.Map",
+  "auto": true,
+  "contexts": [
+    "DateTime"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "RoomMap-followup",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "f88bd4de-64e5-43e5-a2f2-d8da77fc9e96",
+          "required": true,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "On what day would that be?"
+            }
+          ],
+          "defaultValue": "2018-06-19",
+          "isList": false
+        },
+        {
+          "id": "b7f8baab-1c26-4b0e-a910-d3aa51b3b476",
+          "required": true,
+          "dataType": "@sys.time-period",
+          "name": "time",
+          "value": "$time",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "On what time period would you like to place your reservation?"
+            }
+          ],
+          "defaultValue": "08:00:00/20:00:00",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 4,
+          "platform": "skype",
+          "lang": "en",
+          "payload": {
+            "skype": {
+              "text": "Here are the available seats on $date, $time :",
+              "attachments": [
+                {
+                  "contentType": "image",
+                  "contentUrl": "http://i346.photobucket.com/albums/p426/pierrerm38/RoomMap_zpscl0o0bsf.png",
+                  "name": "RoomMap"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "type": 2,
+          "platform": "skype",
+          "lang": "en",
+          "title": "What would you like to do next?",
+          "replies": [
+            "Choose a room",
+            "View another time",
+            "Go back"
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "telegram",
+          "lang": "en",
+          "title": "Here are the available rooms on $date, $time :",
+          "subtitle": "What would you like to do next?",
+          "imageUrl": "http://i346.photobucket.com/albums/p426/pierrerm38/RoomMap_zpscl0o0bsf.png",
+          "buttons": [
+            {
+              "text": "Choose a room"
+            },
+            {
+              "text": "View another time"
+            },
+            {
+              "text": "Go back"
+            }
+          ]
+        },
+        {
+          "type": 4,
+          "platform": "facebook",
+          "lang": "en",
+          "payload": {
+            "facebook": {
+              "attachment": {
+                "type": "image",
+                "payload": {
+                  "url": "http://i346.photobucket.com/albums/p426/pierrerm38/RoomMap_zpscl0o0bsf.png",
+                  "is_reusable": true
+                }
+              }
+            }
+          }
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "What would you like to do next?",
+          "replies": [
+            "Choose a room",
+            "View another time",
+            "Go back"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Fail - Here is the room availability map on $date, $time :"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "slack": false,
+        "skype": false,
+        "telegram": false
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1531816449,
+  "fallbackIntent": false,
+  "events": []
+}

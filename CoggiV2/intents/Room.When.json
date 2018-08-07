@@ -1,0 +1,47 @@
+{
+  "id": "9c9d1370-9e19-484b-844e-c92655973ff7",
+  "name": "Room.When",
+  "auto": false,
+  "contexts": [
+    "RoomMap-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "DateTime",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Sure!",
+            "Right away!",
+            "No problem!",
+            "Of course!",
+            "Alright!"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "What day and time would you like to view?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1532095839,
+  "fallbackIntent": false,
+  "events": []
+}

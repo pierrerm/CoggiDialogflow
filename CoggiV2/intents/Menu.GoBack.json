@@ -1,0 +1,65 @@
+{
+  "id": "c5ada697-a317-427f-ad3c-6ee1ef17b252",
+  "name": "Menu.GoBack",
+  "auto": false,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "skype",
+          "lang": "en",
+          "title": "Choose an item",
+          "replies": [
+            "Book a room",
+            "Reserve a seat",
+            "Schedule a meeting",
+            "Manage reservations"
+          ]
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Choose an item",
+          "replies": [
+            "Book a room",
+            "Reserve a seat",
+            "Schedule a meeting",
+            "Manage reservations"
+          ]
+        },
+        {
+          "type": 2,
+          "platform": "telegram",
+          "lang": "en",
+          "title": "Choose an item",
+          "replies": [
+            "Book a room",
+            "Reserve a seat",
+            "Schedule a meeting",
+            "Manage reservations"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1532095047,
+  "fallbackIntent": false,
+  "events": []
+}

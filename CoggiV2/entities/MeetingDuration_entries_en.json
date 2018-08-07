@@ -1,0 +1,152 @@
+[
+  {
+    "value": "@sys.number-integer:hours hours",
+    "synonyms": [
+      "@sys.number-integer:hours hours"
+    ]
+  },
+  {
+    "value": "@sys.number-integer:hours : @sys.number-integer:minutes hours",
+    "synonyms": [
+      "@sys.number-integer:hours : @sys.number-integer:minutes hours"
+    ]
+  },
+  {
+    "value": "@sys.number-integer:minutes min",
+    "synonyms": [
+      "@sys.number-integer:minutes min"
+    ]
+  },
+  {
+    "value": "@sys.number-integer:minutes minutes",
+    "synonyms": [
+      "@sys.number-integer:minutes minutes"
+    ]
+  },
+  {
+    "value": "@sys.number-integer:hours h @sys.number-integer:minutes",
+    "synonyms": [
+      "@sys.number-integer:hours h @sys.number-integer:minutes"
+    ]
+  },
+  {
+    "value": "@sys.number-integer:hours hrs @sys.number-integer:minutes min",
+    "synonyms": [
+      "@sys.number-integer:hours hrs @sys.number-integer:minutes min"
+    ]
+  },
+  {
+    "value": "@sys.number-integer:hours h @sys.number-integer:minutes min",
+    "synonyms": [
+      "@sys.number-integer:hours h @sys.number-integer:minutes min"
+    ]
+  },
+  {
+    "value": "@sys.number-integer:hours hours @sys.number-integer:minutes minutes",
+    "synonyms": [
+      "@sys.number-integer:hours hours @sys.number-integer:minutes minutes"
+    ]
+  },
+  {
+    "value": "@sys.number-integer:hours h @sys.number-integer:minutes minutes",
+    "synonyms": [
+      "@sys.number-integer:hours h @sys.number-integer:minutes minutes"
+    ]
+  },
+  {
+    "value": "@sys.number-integer:hours h @sys.number-integer:minutes m",
+    "synonyms": [
+      "@sys.number-integer:hours h @sys.number-integer:minutes m"
+    ]
+  },
+  {
+    "value": "@sys.number-integer:minutes m",
+    "synonyms": [
+      "@sys.number-integer:minutes m"
+    ]
+  },
+  {
+    "value": "@sys.number-integer:hours : @sys.number-integer:minutes",
+    "synonyms": [
+      "@sys.number-integer:hours : @sys.number-integer:minutes"
+    ]
+  },
+  {
+    "value": "@sys.number-integer:hours hr",
+    "synonyms": [
+      "@sys.number-integer:hours hr"
+    ]
+  },
+  {
+    "value": "@sys.number-integer:hours hours @sys.number-integer:minutes",
+    "synonyms": [
+      "@sys.number-integer:hours hours @sys.number-integer:minutes"
+    ]
+  },
+  {
+    "value": "@sys.number-integer:hours hrs @sys.number-integer:minutes minutes",
+    "synonyms": [
+      "@sys.number-integer:hours hrs @sys.number-integer:minutes minutes"
+    ]
+  },
+  {
+    "value": "@sys.number-integer:hours hrs@sys.number-integer:minutes m",
+    "synonyms": [
+      "@sys.number-integer:hours hrs@sys.number-integer:minutes m"
+    ]
+  },
+  {
+    "value": "@sys.number-integer:hours hours @sys.number-integer:minutes min",
+    "synonyms": [
+      "@sys.number-integer:hours hours @sys.number-integer:minutes min"
+    ]
+  },
+  {
+    "value": "@sys.number-integer:hours hours @sys.number-integer:minutes m",
+    "synonyms": [
+      "@sys.number-integer:hours hours @sys.number-integer:minutes m"
+    ]
+  },
+  {
+    "value": "@sys.number-integer:hours h",
+    "synonyms": [
+      "@sys.number-integer:hours h"
+    ]
+  },
+  {
+    "value": "@sys.number-integer:hours hrs",
+    "synonyms": [
+      "@sys.number-integer:hours hrs"
+    ]
+  },
+  {
+    "value": "@sys.number-integer:hours hrs @sys.number-integer:minutes",
+    "synonyms": [
+      "@sys.number-integer:hours hrs @sys.number-integer:minutes"
+    ]
+  },
+  {
+    "value": "@sys.number-integer:hours hour",
+    "synonyms": [
+      "@sys.number-integer:hours hour"
+    ]
+  },
+  {
+    "value": "@sys.number-integer:hours : @sys.number-integer:minutes hrs",
+    "synonyms": [
+      "@sys.number-integer:hours : @sys.number-integer:minutes hrs"
+    ]
+  },
+  {
+    "value": "@sys.number-integer:minutes mn",
+    "synonyms": [
+      "@sys.number-integer:minutes mn"
+    ]
+  },
+  {
+    "value": "@sys.number-integer:hours : @sys.number-integer:minutes h",
+    "synonyms": [
+      "@sys.number-integer:hours : @sys.number-integer:minutes h"
+    ]
+  }
+]

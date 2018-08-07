@@ -1,0 +1,142 @@
+[
+  {
+    "id": "a07c1fc0-6348-42cf-a73e-96e4ff4bc1d4",
+    "data": [
+      {
+        "text": "Rivoli",
+        "alias": "Room",
+        "meta": "@Room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1531233600
+  },
+  {
+    "id": "38ba95eb-a551-4ab2-895d-bcfca55daa51",
+    "data": [
+      {
+        "text": "Raspail",
+        "alias": "Room",
+        "meta": "@Room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1529399135
+  },
+  {
+    "id": "2db69018-1377-4092-bf22-4d3c339b25e7",
+    "data": [
+      {
+        "text": "Breteuil",
+        "alias": "Room",
+        "meta": "@Room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1531229572
+  },
+  {
+    "id": "799081b4-3b27-431c-9b59-244214aaaf02",
+    "data": [
+      {
+        "text": "République",
+        "alias": "Room",
+        "meta": "@Room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1531229572
+  },
+  {
+    "id": "afac32e4-f9c2-4a39-8427-2f892d32aa3b",
+    "data": [
+      {
+        "text": "Montmartre",
+        "alias": "Room",
+        "meta": "@Room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1531229572
+  },
+  {
+    "id": "f24ab135-9371-41b1-9f61-269c950f5902",
+    "data": [
+      {
+        "text": "Bercy",
+        "alias": "Room",
+        "meta": "@Room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1529399135
+  },
+  {
+    "id": "e2db80a2-b1c9-4521-abe0-a068c826591d",
+    "data": [
+      {
+        "text": "Vaugirard",
+        "alias": "Room",
+        "meta": "@Room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "updated": 0
+  },
+  {
+    "id": "5913744e-502f-43b5-a71e-4cee94169ebc",
+    "data": [
+      {
+        "text": "Elysées",
+        "alias": "Room",
+        "meta": "@Room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1529399135
+  },
+  {
+    "id": "4982e85a-ad78-46fc-9214-bcca8fddadb4",
+    "data": [
+      {
+        "text": "Matignon",
+        "alias": "Room",
+        "meta": "@Room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1531229572
+  },
+  {
+    "id": "54108035-7607-4bb4-af42-797252123b52",
+    "data": [
+      {
+        "text": "Courcelles",
+        "alias": "Room",
+        "meta": "@Room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1529399135
+  }
+]
